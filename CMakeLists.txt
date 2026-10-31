@@ -10,6 +10,7 @@ find_package(VTK 9.7 REQUIRED COMPONENTS
             FiltersGeneral
             FiltersFlowPaths
             FiltersSources
+            FiltersGeometry
             IOXML
             IOEnSight
             IOCGNSReader
@@ -43,6 +44,7 @@ target_link_libraries(vtk_julia PRIVATE
                       VTK::FiltersGeneral
                       VTK::FiltersFlowPaths
                       VTK::FiltersSources
+                      VTK::FiltersGeometry
                       VTK::IOXML
                       VTK::IOEnSight
                       VTK::IOCGNSReader
